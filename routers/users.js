@@ -10,6 +10,7 @@ const {addSymbol} = require('./../controllers/usersController');
 //router.use(bodyParser.urlencoded({ extended: true }));
 //router.use(bodyParser.json());
 
+
 router.get('/dashboard', dashboard); 
 router.get('/logout', logout);
 router.post('/symbol', joiValidation(addSymbolValidator) ,addSymbol);

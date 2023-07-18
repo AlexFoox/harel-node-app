@@ -11,6 +11,7 @@ const addSymbol = async (req, res, next) => {
         res.send(`added valid symbol ${req.body.symbol}`);
     } catch (err) {
         console.log(`added NOT valid symbol ${req.body.symbol}  ERROR ${err.message}`)
+
         next(err);
     }
 }

@@ -1,3 +1,4 @@
+
 const UserSymbol = require('../../course-app/models/mysql/user-symbol');
 
 const dashboard = async (req, res, next) => {
@@ -11,6 +12,7 @@ const dashboard = async (req, res, next) => {
     } catch (err) {
         next(err);
     }
+
 };
 
 module.exports = dashboard;
