@@ -1,0 +1,18 @@
+{
+  "app": {
+    "name": "node course foox",
+    "port": 3001,
+    "host": "localhost"
+  },
+  "dbOauth": {
+    "password" : "",
+    "username" : ""
+  },
+  "mysql": {
+    "host": "mysql",
+    "user": "username",
+    "password": "password",
+    "database": "mydb",
+    "port": 3306
+  }
+}
